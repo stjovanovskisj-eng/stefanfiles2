@@ -1,0 +1,13 @@
+{
+  "name": "stefanfiles",
+  "version": "1.0.0",
+  "description": "Mother's Day website with permanent uploads, slideshow, gallery, and backend.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "multer": "^1.4.5"
+  }
+}

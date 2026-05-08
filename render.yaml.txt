@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: stefanfiles
+    env: node
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    disk:
+      name: uploads
+      mountPath: /uploads
+      sizeGB: 5
